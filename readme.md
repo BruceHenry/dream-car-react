@@ -1,35 +1,16 @@
-# Command Used
+# Dream Car React
 
-## yarn command
-- yarn init
-- yarn add babel-preset-env@1.6.1 babel-preset-react@6.24.1
-- yarn add live-server babel-cli@6.24.1
-- yarn add validator
-- yarn add react@16.0.0 react-dom@16.0.0
-- yarn add babel-core@6.25.0 babel-loader@7.1.1
+### To view the page, visit at [brucehenry.github.io/dream-car-react](https://brucehenry.github.io/dream-car-react)
 
+---
+## Introduction
+This web app is a demo of **React**. And it includes these features,
+- Flexible to any size of screen, including mobile phone screen.
+- The data is cached so that it will not be cleared when refreshing or closing the browser.
+- Babel, Webpack, Yarn and SCSS are all used in this project.
 
-## babel command
-- babel src/app.js --out-file=js/app.js --presets=env,react --watch
+---
+## Origin
 
+Though I wrote all the code by my own, the idea of this is originally from the first project of [Udemy: The Complete React Web Developer Course (with Redux)](https://www.udemy.com/react-2nd-edition/learn/v4/content).
 
-## Webpack
-1. yarn add webpack react react-dom babel-core babel-loader
-2. add "scripts" in package.json
-3. create "webpack.config.js" file and set
-4. create ".babelrc" file
-5. `import React from 'react'` and `import ReactDOM from 'react-dom'`
-
-### Webpack DEV Server
-`yarn add webpack-dev-server@2.5.1`
-`yarn add babel-plugin-transform-class-properties@6.24.1`
-
-### React modal
-`yarn add react-modal@2.2.2`
-
-### CSS & SCSS 
-`yarn add style-loader@0.18.2 css-loader@0.28.4`
-`yarn add sass-loader@6.0.6 node-sass@4.5.3`
-
-### normalize css
-`yarn add normalize.css`
