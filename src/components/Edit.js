@@ -32,7 +32,7 @@ export default class Edit extends React.Component {
                         onClick={this.handleClear}
                         className="big-button big-button--clear"
                         disabled={!this.props.hasOptions}>
-                        Clear
+                        Clear List
                     </button>
                     <button onClick={this.handleRandom} className="big-button" disabled={!this.props.hasOptions}>Random Choose One</button>
                 </div>
@@ -40,7 +40,7 @@ export default class Edit extends React.Component {
                     {this.state.msg && <p className="edit__message">{this.state.msg}</p>}
                     <form className="edit__form" onSubmit={this.handleAddOption}>
                         <input className="edit__input" type="text" name="option" />
-                        <button className="button">Add Option</button>
+                        <button className="button">Add Item</button>
                     </form>
                 </div>
             </div>

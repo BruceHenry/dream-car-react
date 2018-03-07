@@ -1,13 +1,14 @@
-# Dream Car React
+# Shopping List React
 
-### To view the page, visit at [brucehenry.github.io/dream-car-react](https://brucehenry.github.io/dream-car-react)
+### To view the page, visit at [brucehenry.github.io/shopping-list-react](https://brucehenry.github.io/shopping-list-react)
 
 ---
 ## Introduction
-This web app is a demo of **React**. And it includes these features,
-- Flexible to any size of screen, including mobile phone screen.
-- The data is cached so that it will not be cleared when refreshing or closing the browser.
-- Babel, Webpack, Yarn and SCSS are all used in this project.
+This is a single page web app built with React.
+
+- Flexible to any size of screen, including mobile phone.
+- The data is cached so that it will NOT disappear when refreshing the page or closing the browser.
+- Babel, Webpack, Yarn and SCSS are used in this project.
 
 ---
 ## Origin

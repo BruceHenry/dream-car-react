@@ -8,7 +8,7 @@ export default class App extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            options: ['Mercedes', 'Lexus', 'Porsche'],
+            options: ['Mercedes AMG GT', 'Lexus LC', 'Porsche 911'],
             selectedOption: undefined
         }
         this.handleAddOption = this.handleAddOption.bind(this);
